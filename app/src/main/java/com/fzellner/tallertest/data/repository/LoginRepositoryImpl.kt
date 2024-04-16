@@ -9,7 +9,7 @@ class LoginRepositoryImpl : LoginRepository {
     override suspend fun login(userEmail: String, password: String): Flow<Boolean> {
         val successEmail = "email@test.com"
         return flow {
-            delay(5000)
+            delay(3000)
             emit(userEmail == successEmail && password == "12345")
         }
     }
