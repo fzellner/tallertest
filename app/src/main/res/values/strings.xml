@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TallerTest</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="success">Login Successful</string>
+    <string name="error">Login failed</string>
+</resources>
